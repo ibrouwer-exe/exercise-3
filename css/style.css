@@ -1,0 +1,51 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrap {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.bear {
+    height: 75vh;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+.bear img {
+    padding: 5%;
+}
+.button {
+    background-color: white;
+    min-width: 200px;
+    min-height: 100px;
+    width: 12vh;
+    height: 6vh;
+    margin: 1vh;
+    padding: 5vh 10vh 5vh 10vh;
+    border-style: dashed;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+}
+.button:hover {
+    background-color: #f2f2f2;
+}
+
