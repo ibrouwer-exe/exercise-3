@@ -13,6 +13,7 @@ body {
 }
 img {
     max-width: 100%;
+    height: 40vw;
     
 }
 
@@ -27,7 +28,6 @@ img {
 .bear {
     display:flex;
     justify-content: center;
-    padding-bottom: 5vh;
 }
 
 .button {
