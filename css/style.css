@@ -30,9 +30,7 @@ img {
     justify-content: center;
     padding-bottom: 5vh;
 }
-.bear img {
-    padding: 5%;
-}
+
 .button {
     background-color: white;
     min-width: 200px;
